@@ -13,6 +13,7 @@ If everything goes well, you can access the following services at given location
 * API Gateway - http://localhost:8080
 
 The Config Server fetches the configuration from a [GitHub Repository](https://github.com/jonato96/spring-lab-challenge-config)
+
 Both MCSVs have a fixed port but you can also assign a different one by maven command `mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=your-port` or by setting port 0 in the configuration.
 
 ## Database configuration
